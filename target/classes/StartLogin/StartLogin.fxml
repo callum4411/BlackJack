@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="63.0" prefWidth="459.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StartLogin.StartLoginController">
+   <children>
+      <Button fx:id="btncreate" layoutX="9.0" layoutY="10.0" mnemonicParsing="false" onAction="#onbtncreate" styleClass="custom-button" text="Create new application account" />
+      <Button fx:id="Btnlogin" layoutX="261.0" layoutY="10.0" mnemonicParsing="false" onAction="#onbtnlogin" styleClass="custom-button" text="Login to existing account" />
+   </children>
+</AnchorPane>

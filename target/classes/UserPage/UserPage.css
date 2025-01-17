@@ -1,0 +1,64 @@
+//* Style for the overall AnchorPane */
+.anchor-pane {
+    -fx-background-color: #f5f5f5; /* Light gray background */
+    -fx-padding: 20; /* Add some padding around the edges */
+}
+
+/* Style for the status text */
+#txtStatus {
+    -fx-text-fill: #333; /* Dark gray text color */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-font-size: 24px; /* Font size */
+    -fx-text-alignment: center; /* Center alignment */
+}
+
+/* Style for the TextFields */
+.text-field {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #007bff; /* Blue border */
+    -fx-border-width: 2; /* Border width */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 5; /* Padding inside the text fields */
+    -fx-font-size: 16px; /* Font size */
+}
+
+/* Style for the TextField placeholder */
+.text-field::placeholder {
+    -fx-text-fill: #a9a9a9; /* Placeholder text color */
+}
+
+/* Style for the ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #007bff; /* Blue border */
+    -fx-border-width: 2; /* Border width */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 5; /* Padding inside the ComboBox */
+    -fx-font-size: 16px; /* Font size */
+}
+
+/* Style for the ComboBox placeholder */
+.combo-box::placeholder {
+    -fx-text-fill: #a9a9a9; /* Placeholder text color */
+}
+
+/* Style for the button */
+.button {
+    -fx-background-color: #007bff; /* Blue background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 10 20; /* Padding */
+}
+
+/* Change button color on hover */
+.button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for additional text labels */
+.text {
+    -fx-text-fill: #555; /* Medium gray text color */
+    -fx-font-size: 14px; /* Font size */
+    -fx-wrap-text: true; /* Allow text to wrap */
+}

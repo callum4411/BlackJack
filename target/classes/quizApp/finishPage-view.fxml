@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizApp.FinishPageController">
+    <children>
+        <Label layoutX="20" layoutY="20" text="Quiz Summary" style="-fx-font-size: 18px;" />
+        <TableView fx:id="summaryTable" layoutX="20" layoutY="60" prefWidth="560" prefHeight="300" />
+        <Label fx:id="scoreLabel" layoutX="20" layoutY="370" style="-fx-font-size: 16px;" />
+        <Label fx:id="timeTakenLabel" layoutX="20" layoutY="400" style="-fx-font-size: 14px;" />
+        <Label fx:id="performanceLabel" layoutX="20" layoutY="430" style="-fx-font-size: 14px;" wrapText="true" prefWidth="560" />
+        <Button fx:id="retakeButton" text="Retake Quiz" layoutX="150" layoutY="480" onAction="#onRetake" />
+        <Button fx:id="closeButton" text="Close" layoutX="300" layoutY="480" onAction="#onClose" />
+    </children>
+</AnchorPane>
+

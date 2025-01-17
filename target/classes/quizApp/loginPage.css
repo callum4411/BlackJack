@@ -1,0 +1,44 @@
+/* Set general styling for the AnchorPane */
+.anchor-pane {
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #d3e0ea);
+    -fx-padding: 20;
+}
+
+/* Style for TextFields */
+.text-field, .password-field {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #90a4ae;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-text-fill: #333;
+    -fx-prompt-text-fill: #bbb;
+    -fx-font-size: 18;
+    -fx-padding: 5;
+}
+
+/* Style for Buttons */
+.button {
+    -fx-background-color: #536dfe;
+    -fx-border-radius: 5;
+    -fx-text-fill: #fff;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #3b50d1;
+}
+
+/* Error Label */
+.label {
+    -fx-text-fill: red;
+    -fx-font-size: 14;
+}
+
+/* Main Heading */
+.text {
+    -fx-fill: #2e3a59;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}

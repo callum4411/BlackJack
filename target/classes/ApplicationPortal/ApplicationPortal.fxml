@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="426.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ApplicationPortal.ApplicationPortalController">
+   <children>
+      <Text layoutX="2.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Application portal for XYZ" textAlignment="CENTER" wrappingWidth="426.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txfName" layoutX="48.0" layoutY="114.0" prefHeight="26.0" prefWidth="345.0" promptText="Whats your name" />
+      <Text layoutX="85.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="please answer the following questions and we will get back to you as soon as possible" textAlignment="CENTER" wrappingWidth="248.88427734375" />
+      <TextField fx:id="txfEmail" layoutX="46.0" layoutY="165.0" prefHeight="26.0" prefWidth="345.0" promptText="Enter Email" />
+      <TextField fx:id="txfPass" layoutX="45.0" layoutY="211.0" prefHeight="26.0" prefWidth="345.0" promptText="Create Password(will be used to check on application sattus)" />
+      <Button fx:id="btnAdd" layoutX="142.0" layoutY="306.0" mnemonicParsing="false" onAction="#onBtnAdd" text="Add Application" />
+      <ComboBox fx:id="cmbExp" layoutX="65.0" layoutY="256.0" prefHeight="26.0" prefWidth="300.0" promptText="Your main coding language" />
+      <TextField fx:id="otherText" layoutX="129.0" layoutY="396.0" opacity="0.0" />
+   </children>
+</AnchorPane>

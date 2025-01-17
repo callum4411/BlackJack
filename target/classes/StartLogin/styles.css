@@ -1,0 +1,27 @@
+/* styles.css */
+
+/* Style for the entire AnchorPane */
+.anchor-pane {
+    -fx-background-color: #f5f5f5;
+}
+
+/* Style for buttons */
+.custom-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+/* Hover effect for buttons */
+.custom-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* Pressed effect for buttons */
+.custom-button:pressed {
+    -fx-background-color: #1c5a8a;
+}

@@ -1,0 +1,62 @@
+/* Style for the AnchorPane */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 20px;
+}
+
+/* Style for the question text */
+#txtQuestion {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-fill: #333;
+    -fx-text-alignment: center;
+}
+
+/* Style for the timer label */
+#lbltimerDisplay {
+    -fx-text-fill: #555;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Style for radio buttons */
+.radio-button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+}
+
+.radio-button:selected {
+    -fx-border-color: #007bff;
+    -fx-background-color: #e6f0ff;
+}
+
+/* Style for buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:disabled {
+    -fx-background-color: #aaa;
+    -fx-text-fill: #ddd;
+}
+
+/* Adjustments for disabled elements */
+:disabled {
+    -fx-opacity: 0.5;
+    -fx-cursor: default;
+}

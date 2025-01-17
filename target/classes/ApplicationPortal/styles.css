@@ -1,0 +1,76 @@
+/* AnchorPane Styling */
+AnchorPane {
+    -fx-background-color: #f0f4f8; /* Light background color */
+    -fx-padding: 20;
+}
+
+/* Title Text Styling */
+Text {
+    -fx-font-family: "Arial";
+    -fx-fill: #333; /* Dark gray text */
+}
+
+Text:first-of-type {
+    -fx-font-size: 28px; /* Larger font for main title */
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+/* Subtext Styling */
+Text:last-of-type {
+    -fx-font-size: 14px;
+    -fx-fill: #666; /* Lighter gray text for subtext */
+    -fx-text-alignment: center;
+}
+
+/* TextField Styling */
+TextField {
+    -fx-font-size: 14px;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 345px;
+    -fx-padding: 0 10;
+    -fx-border-color: #a0a0a0;
+    -fx-border-width: 1px;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+}
+
+TextField:focused {
+    -fx-border-color: #4a90e2; /* Light blue border on focus */
+}
+
+/* Button Styling */
+Button {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-background-color: #4a90e2; /* Light blue button */
+    -fx-background-radius: 8px;
+    -fx-padding: 10 20;
+}
+
+Button:hover {
+    -fx-background-color: #357abd; /* Darker blue on hover */
+}
+
+Button:pressed {
+    -fx-background-color: #2e5c9b; /* Even darker blue on press */
+}
+
+/* ComboBox Styling */
+ComboBox {
+    -fx-font-size: 14px;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 194px;
+    -fx-padding: 0 10;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-border-color: #a0a0a0;
+    -fx-border-width: 1px;
+}
+
+ComboBox:focused {
+    -fx-border-color: #4a90e2; /* Light blue border on focus */
+}
+#cmbExp {
+    -fx-pref-width: 300px; /* Adjust this value as needed */
+}
